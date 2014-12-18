@@ -14,6 +14,7 @@
 		6F24CE251A424C6500E34077 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F24CE241A424C6500E34077 /* Images.xcassets */; };
 		6F24CE281A424C6500E34077 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F24CE261A424C6500E34077 /* LaunchScreen.xib */; };
 		6F24CE341A424C6500E34077 /* CoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F24CE331A424C6500E34077 /* CoreDataTests.m */; };
+		6F24CE3F1A424FD100E34077 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6F24CE3D1A424FD100E34077 /* CoreData.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		6F24CE2D1A424C6500E34077 /* CoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F24CE321A424C6500E34077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F24CE331A424C6500E34077 /* CoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataTests.m; sourceTree = "<group>"; };
+		6F24CE3E1A424FD100E34077 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				6F24CE241A424C6500E34077 /* Images.xcassets */,
 				6F24CE261A424C6500E34077 /* LaunchScreen.xib */,
 				6F24CE171A424C6500E34077 /* Supporting Files */,
+				6F24CE3D1A424FD100E34077 /* CoreData.xcdatamodeld */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F24CE3F1A424FD100E34077 /* CoreData.xcdatamodeld in Sources */,
 				6F24CE201A424C6500E34077 /* ViewController.m in Sources */,
 				6F24CE1D1A424C6500E34077 /* AppDelegate.m in Sources */,
 				6F24CE1A1A424C6500E34077 /* main.m in Sources */,
@@ -422,6 +426,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6F24CE3D1A424FD100E34077 /* CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6F24CE3E1A424FD100E34077 /* CoreData.xcdatamodel */,
+			);
+			currentVersion = 6F24CE3E1A424FD100E34077 /* CoreData.xcdatamodel */;
+			path = CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6F24CE0C1A424C6500E34077 /* Project object */;
 }
